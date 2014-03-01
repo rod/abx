@@ -1,0 +1,44 @@
+// Colors
+$white: #fff;
+$black: #333;
+$gray: #c0c0c0;
+
+// Font
+$body-font: 'didot', georgia, 'times new roman', serif;
+$header-font: 'caviar dreams', helvetica, arial, sans-serif;
+$line-height: 1.6em;
+$font-color: $black;
+$font-size: 1em;
+
+$font-size-large: 1.2em;
+$font-size-small: .8em;
+
+// Spacing
+$spacer: 1em;
+$spacer-xsmall: $spacer / 4;
+$spacer-small: $spacer / 2;
+$spacer-large: $spacer * 2;
+$spacer-xlarge: $spacer * 4;
+
+// Containers
+$container-fluid: 100%;
+$container-slim: 45em;
+
+// Breakpoints
+$small: 35em;
+$medium: 45em;
+$large: 70em;
+
+// Hero
+$hero-size: 12em;
+$hero-size-bigger: 18em;
+$hero-size-biggest: 22em;
+
+// Header
+$header-height: 3em;
+
+// Footer
+$footer-height: 2em;
+
+// Animations
+$duration: .5s;

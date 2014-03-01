@@ -1,0 +1,17 @@
+footer {
+  color: rgba(255, 255, 255, .5);
+  height: $footer-height;
+  text-align: center;
+  padding: $spacer-small $spacer;
+  transition-property: color;
+  transition-duration: $duration;
+  &:hover {
+    color: $white;
+  }
+}
+
+.copyright {
+  font-size: $font-size-small;
+  margin: 0;
+  line-height: 1.2em;
+}

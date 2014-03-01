@@ -1,0 +1,28 @@
+.logo {
+  margin: 0 auto;
+}
+
+.hero {
+  background: rgba(124, 124, 124, .4);
+  border-radius: 50%;
+  height: $hero-size;
+  left: 50%;
+  margin-left: $hero-size / -2;
+  margin-top: $hero-size / -2;
+  padding: $spacer-large;
+  position: absolute;
+  top: 50%;
+  width: $hero-size;
+  @include at-breakpoint($medium) {
+    height: $hero-size-bigger;
+    margin-left: $hero-size-bigger / -2;
+    margin-top: $hero-size-bigger / -2;
+    width: $hero-size-bigger;
+  }
+  @include at-breakpoint($large) {
+    height: $hero-size-biggest;
+    margin-left: $hero-size-biggest / -2;
+    margin-top: $hero-size-biggest / -2;
+    width: $hero-size-biggest;
+  }
+}

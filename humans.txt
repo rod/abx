@@ -1,0 +1,8 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+Rodney Dennis -- rdnydnns.github.io -- @rdnydnns
+
+# COLOPHON
+Normalize, Mordernizr, HTML5, CSS3, JQuery, Wordpress, Gulp
