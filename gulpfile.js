@@ -56,7 +56,7 @@ gulp.task('templates', function(){
 
 // Default task
 gulp.task('default', function() {
-  gulp.start('styles', 'scripts', 'images');
+  gulp.start('styles', 'scripts', 'images', 'templates');
 });
 
 // Watch

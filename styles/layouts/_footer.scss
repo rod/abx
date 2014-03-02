@@ -1,17 +1,19 @@
 footer {
-  color: rgba(255, 255, 255, .5);
+  color: $black;
+  font-family: $header-font;
   height: $footer-height;
-  text-align: center;
   padding: $spacer-small $spacer;
-  transition-property: color;
-  transition-duration: $duration;
-  &:hover {
-    color: $white;
-  }
+  text-align: right;
 }
 
 .copyright {
   font-size: $font-size-small;
-  margin: 0;
   line-height: 1.2em;
+  margin: 0;
+  opacity: .5;
+  transition-duration: $duration;
+  transition-property: opacity;
+  &:hover {
+    opacity: 1;
+  }
 }

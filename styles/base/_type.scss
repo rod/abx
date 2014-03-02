@@ -1,10 +1,50 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font;
+  font-weight: bold;
+}
+
+h1 {
   font-weight: normal;
+  font-size: $font-size * 4;
+  line-height: 1em;
+  margin: .4em 0;
+}
+
+h2 {
+  font-family: $body-font;
+  color: $tan;
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+h6 {
+  color: $gray;
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
 
 ul.unstyled {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+blockquote {
+  @extend h2;
+  margin: 0;
+  padding: 0;
+  border-left: $border-width solid $tan;
+  padding-left: $spacer;
+  margin-left: $spacer;
+  font-style: italic;
+  line-height: 1.5em;
 }

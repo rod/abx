@@ -15,17 +15,36 @@ body {
 }
 
 body {
-  background: url(images/v02.jpg);
   background-size: cover;
   color: $font-color;
   font-family: $body-font;
   font-size: $font-size;
   line-height: $line-height;
+  transition-property: top;
+  transition-duration: $duration;
+  position: absolute;
+  top: 0;
   @include at-breakpoint($medium) {
     background: transparent;
   }
   @include at-breakpoint($large) {
     font-size: 120%;
+  }
+}
+
+body.active {
+  top: $nav-height;
+  @include at-breakpoint($medium) {
+    top: 0;
+  }
+}
+
+a {
+  transition-property: color;
+  transition-duration: $duration;
+  color: $link-color;
+  &:hover {
+    color: $link-hover;
   }
 }
 
@@ -62,11 +81,11 @@ img {
 }
 
 .pad-top {
-  padding-top: $spacer-large;
+  padding-top: $spacer;
 }
 
 .pad-bottom {
-  padding-bottom: $spacer-large;
+  padding-bottom: $spacer;
 }
 
 .pad-sides {

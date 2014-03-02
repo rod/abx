@@ -3,6 +3,9 @@ $white: #fff;
 $black: #333;
 $gray: #c0c0c0;
 
+// Accents
+$tan: #966E4A;
+
 // Font
 $body-font: 'didot', georgia, 'times new roman', serif;
 $header-font: 'caviar dreams', helvetica, arial, sans-serif;
@@ -42,3 +45,14 @@ $footer-height: 2em;
 
 // Animations
 $duration: .5s;
+
+// Borders
+$border-width: .2em;
+
+// Links
+$link-color: $tan;
+$link-hover: lighten($tan, 15%);
+
+// Nav
+$nav-link-height: 3em;
+$nav-height: $nav-link-height * 7;
