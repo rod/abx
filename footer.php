@@ -7,10 +7,10 @@
     <!-- Load scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="wp-content/themes/abx-theme/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-    <script src="wp-content/themes/abx-theme/scripts/vendor/maximage-2.0.8.min.js"></script>
-    <script src="wp-content/themes/abx-theme/scripts/vendor/jquery.cycle.all-2.99.min.js"></script>
-    <script src="wp-content/themes/abx-theme/scripts/main.js"></script>
-    <script src="wp-content/themes/abx-theme/scripts/plugins.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>//scripts/vendor/maximage-2.0.8.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>//scripts/vendor/jquery.cycle.all-2.99.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>//scripts/main.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>//scripts/plugins.js"></script>
     <!-- Google analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

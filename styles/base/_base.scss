@@ -15,7 +15,6 @@ body {
 }
 
 body {
-  background-size: cover;
   color: $font-color;
   font-family: $body-font;
   font-size: $font-size;
@@ -30,6 +29,11 @@ body {
   @include at-breakpoint($large) {
     font-size: 120%;
   }
+}
+
+body.home {
+  background: url(images/v01.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 body.active {

@@ -12,11 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <script src="wp-content/themes/abx-theme/scripts/vendor/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/vendor/modernizr-2.6.2.min.js"></script>
     <?php wp_head(); ?>
   </head>
 
-  <body>
+  <body <?php if (function_exists('body_class')) body_class(); ?>>
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
